@@ -1,7 +1,5 @@
 FROM php:8.2-apache
 
-RUN a2enmod rewrite
-
 RUN apt-get update && apt-get install -y \
     git \
     unzip \
@@ -10,6 +8,12 @@ RUN apt-get update && apt-get install -y \
     libzip-dev
 
 RUN docker-php-ext-install pdo pdo_mysql pdo_pgsql zip
+
+# Activer mod_rewrite
+RUN a2enmod rewrite
+
+# Configurer Apache pour pointer vers /public
+RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
