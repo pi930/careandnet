@@ -28,6 +28,8 @@ RUN chown -R www-data:www-data storage bootstrap/cache
 # 👉 Cette commande sera exécutée à chaque build
 RUN php artisan migrate --force
 
+RUN php artisan config:clear
+
 EXPOSE 80
 
 CMD ["apache2-foreground"]
