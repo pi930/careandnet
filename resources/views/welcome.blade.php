@@ -14,22 +14,22 @@
 ">
 
     <div style="
-        width: 900px;
-        margin: auto;
-        text-align: center;
+        max-width:900px;
+        width:100%;
+        margin:auto;
+        text-align:center;
     ">
 
         <!-- TITRE MODIFIÉ -->
-<h1 style="font-size:42px; font-weight:bold;">
-    <span style="color:black;">CARE and NET</span> —
-    <span style="color:black;">Entreprise de nettoyage à Cannes et dans les Alpes‑Maritimes (06)</span>
-</h1>
-
+        <h1 style="font-size:42px; font-weight:bold;">
+            <span style="color:black;">CARE and NET</span> —
+            <span style="color:black;">Entreprise de nettoyage à Cannes et dans les Alpes‑Maritimes (06)</span>
+        </h1>
 
         <!-- INTRO -->
         <p style="font-size:20px; line-height:1.7; margin-top:30px;">
             Fondée par une jeune femme passionnée,
-            <span style="color:#6B7A3A;">NET and CARE</span> met son exigence, sa rigueur et son savoir‑faire au service des particuliers et des professionnels.
+            <span style="color:#6B7A3A;">CARE and NET</span> met son exigence, sa rigueur et son savoir‑faire au service des particuliers et des professionnels.
             <br><br>
             Nettoyage de textiles, remise en état, fin de chantier.
             <br>
@@ -47,7 +47,7 @@
 
             <!-- BULLE GAUCHE : DEVIS GRATUIT -->
             <div style="
-                background:#4A5A39; /* couleur du logo */
+                background:#4A5A39;
                 color:black;
                 padding:15px 25px;
                 border-radius:50px;
@@ -61,18 +61,17 @@
 
             <!-- BULLE DROITE : NUMÉRO -->
             <div style="
-    background:white;
-    color:black;
-    padding:15px 25px;
-    border-radius:50px;
-    border:2px solid #6B7A3A;
-    font-size:20px;
-    font-weight:bold;
-    box-shadow:0 6px 14px rgba(0,0,0,0.25);
-">
-    07 51 74 03 42
-</div>
-
+                background:white;
+                color:black;
+                padding:15px 25px;
+                border-radius:50px;
+                border:2px solid #6B7A3A;
+                font-size:20px;
+                font-weight:bold;
+                box-shadow:0 6px 14px rgba(0,0,0,0.25);
+            ">
+                07 51 74 03 42
+            </div>
 
         </div>
 
@@ -92,6 +91,7 @@
 
     </div>
 </div>
+
 
 <!-- SECTION PRESTATIONS — FOND IDENTIQUE -->
 <div style="

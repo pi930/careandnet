@@ -28,7 +28,7 @@
         <!-- INTRO -->
         <p style="font-size:20px; line-height:1.7; margin-top:10px;">
             Besoin d'un nettoyage après des travaux ou après une rénovation ? —
-            CATRE & NET, votre entreprise de nettoyage à Cannes,
+            CARE & NET, votre entreprise de nettoyage à Cannes,
             restitue chaque surface dans un état irréprochable.
             <br><br>
             Intervention rapide, résultat contrôlé avant départ ou arrivée,
