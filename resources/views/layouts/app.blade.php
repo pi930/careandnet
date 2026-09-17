@@ -68,26 +68,27 @@ img { max-width:100%; height:auto; }
 
     /* --- TOPBAR --- */
 
-    .topbar-inner {
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 15px !important;
-        text-align: center !important;
-        width: 100% !important;
-    }
+    /* Correction centrage Android / Galaxy */
+.topbar-inner {
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:center !important;
+    align-items:center !important;
+}
 
-    .topbar-links {
-        flex-direction: column !important;
-        gap: 15px !important;
-        font-size: 22px !important;
-        width: 100% !important;
-    }
+.topbar-links {
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:center !important;
+    align-items:center !important;
+}
 
-    .topbar-phone {
-        width: 100% !important;
-        max-width: 300px !important;
-        text-align: center !important;
-    }
+.topbar-phone {
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+}
+
 
     .topbar {
         padding-left: 10px !important;
