@@ -6,7 +6,6 @@
     <title>CARE & NET</title>
 
 <style>
-
 /* GLOBAL */
 body { margin:0; padding:0; overflow-x:hidden; }
 img { max-width:100%; height:auto; }
@@ -68,75 +67,83 @@ img { max-width:100%; height:auto; }
 
     /* --- TOPBAR --- */
 
-    /* Correction centrage Android / Galaxy */
-.topbar-inner {
-    display:flex !important;
-    flex-direction:column !important;
-    justify-content:center !important;
-    align-items:center !important;
-}
-
-.topbar-links {
-    display:flex !important;
-    flex-direction:column !important;
-    justify-content:center !important;
-    align-items:center !important;
-}
-
-.topbar-phone {
-    display:flex !important;
-    justify-content:center !important;
-    align-items:center !important;
-}
-
-
     .topbar {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-        box-sizing: border-box !important;
+        padding:6px 10px !important; /* barre plus fine */
+    }
+
+    .topbar-inner {
+        display:flex !important;
+        flex-direction:column !important;
+        justify-content:center !important;
+        align-items:center !important;
+        gap:8px !important; /* réduit la hauteur */
+        width:100% !important;
+        text-align:center !important;
+    }
+
+    .topbar-links {
+        display:flex !important;
+        flex-direction:column !important;
+        justify-content:center !important;
+        align-items:center !important;
+        gap:8px !important; /* réduit la hauteur */
+        font-size:22px !important;
+        width:100% !important;
+        text-align:center !important;
+    }
+
+    .topbar-phone {
+        display:flex !important;
+        justify-content:center !important;
+        align-items:center !important;
+        padding:10px 15px !important; /* bulle plus fine */
+        max-width:260px !important;
+        width:100% !important;
+        text-align:center !important;
     }
 
     /* --- BLOCS 900px --- */
 
-    div[style*="width:900px"] {
-        width: 100% !important;
-        max-width: 100% !important;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-        box-sizing: border-box !important;
-        text-align: center !important;
+    div[style*="width:900px"],
+    div[style*="width: 900px"] {
+        width:100% !important;
+        max-width:100% !important;
+        padding-left:15px !important;
+        padding-right:15px !important;
+        box-sizing:border-box !important;
+        text-align:center !important;
     }
 
     /* TITRES */
     h1[style*="font-size:42px"] {
-        font-size: 28px !important;
-        line-height: 1.3 !important;
-        margin-bottom: 20px !important;
+        font-size:28px !important;
+        line-height:1.3 !important;
+        margin-bottom:20px !important;
     }
 
     /* TEXTES */
     p[style*="font-size:20px"] {
-        font-size: 18px !important;
-        line-height: 1.6 !important;
+        font-size:18px !important;
+        line-height:1.6 !important;
     }
 
     /* ZONES D’INTERVENTION */
     p[style*="font-size:18px"] {
-        font-size: 16px !important;
-        margin-bottom: 15px !important;
+        font-size:16px !important;
+        margin-bottom:15px !important;
     }
 
     /* BULLES */
     div[style*="display:flex"][style*="gap:40px"] {
-        flex-direction: column !important;
-        gap: 20px !important;
-        align-items: center !important;
+        flex-direction:column !important;
+        gap:20px !important;
+        align-items:center !important;
     }
 
     div[style*="border-radius:50px"] {
-        width: 100% !important;
-        max-width: 300px !important;
-        text-align: center !important;
+        width:100% !important;
+        max-width:300px !important;
+        text-align:center !important;
     }
 }
 
